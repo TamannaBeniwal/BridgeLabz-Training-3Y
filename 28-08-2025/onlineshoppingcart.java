@@ -7,11 +7,10 @@ public class onlineshoppingcart {
             double totalAmount = 0;
             int itemCount;
 
-            // System.out.println("Welcome to the Online Shopping ");
-            do {
+             do {
                 System.out.print("Enter no. of items at least 1: ");
                 itemCount = sc.nextInt();
-            } while (itemCount > 1);
+            } while (itemCount < 1);
             for (int i = 1; i <= itemCount; i++) {
                 System.out.println("\nProduct Menu:");
                 System.out.println("1.laptop-Rs40000");
@@ -42,7 +41,7 @@ public class onlineshoppingcart {
             if (totalAmount > 5000) {
                 double discount = totalAmount * 0.10;
                 totalAmount -= discount;
-                System.out.println("10% discount of Rs. " + discount);
+                System.out.println("10% discount of Rs." + discount);
             } else {
                 System.out.println("No discount");
             }
