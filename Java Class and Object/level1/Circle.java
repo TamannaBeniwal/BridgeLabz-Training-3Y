@@ -5,6 +5,7 @@ public class Circle {
         this.radius = radius;
     }
 
+
     public void display() {
         double area = Math.PI * radius * radius;
         double circumference = 2 * Math.PI * radius;
