@@ -1,4 +1,4 @@
-package level1;
+package StringLevel1;
 import java.util.Scanner;
 public class CompareString {
    
