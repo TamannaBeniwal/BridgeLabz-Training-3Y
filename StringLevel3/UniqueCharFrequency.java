@@ -24,4 +24,9 @@ public class UniqueCharFrequency {
         }
     }
 
+    private static String[][] getCharFrequencies(String text) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getCharFrequencies'");
+    }
+}
     // Method to find unique characte
