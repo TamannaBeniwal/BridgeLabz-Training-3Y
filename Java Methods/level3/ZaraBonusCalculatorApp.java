@@ -1,6 +1,5 @@
 import java.util.Random;
 
-@SuppressWarnings("unused")
 public class ZaraBonusCalculatorApp {
     public static void main(String[] args) {
         // Step 1: Generate salary and service data
