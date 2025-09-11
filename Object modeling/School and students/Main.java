@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[] args) {
+    public static <School, Student, Course> void main(String[] args) {
         // Create a school
         School school = new School("Greenwood High");
 

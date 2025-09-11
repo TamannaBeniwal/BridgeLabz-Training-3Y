@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Course {
+public class Course<enrolledStudents, Student> {
     private String courseName;
     private List<Student> enrolledStudents;
 
@@ -22,7 +22,7 @@ public class Course {
     }
 
     // Show students enrolled in the course
-    public void showEnrolledStudents() {
+    public <enrolledStudents> void showEnrolledStudents() {
         System.out.println("Course: " + courseName);
         if (enrolledStudents.isEmpty()) {
             System.out.println("  No students enrolled.");

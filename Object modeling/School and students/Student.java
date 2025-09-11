@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Student {
+public class Student<courses, Course> {
     private String name;
     private List<Course> courses; // Association
 
