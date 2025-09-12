@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Order<Customer, Product> {
+public class Order {
     private static int orderCounter = 1;
     private int orderId;
     private Customer customer;

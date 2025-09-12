@@ -1,5 +1,5 @@
 public class Main {
-    public static <Product, Customer, Order> void main(String[] args) {
+    public static void main(String[] args) {
         // Create products
         Product laptop = new Product("Laptop", 1200.00);
         Product phone = new Product("Smartphone", 700.00);
